@@ -10,7 +10,7 @@ const ContactSection: React.FC = () => {
           Get in Touch
         </p>
         <p className="text-lg mb-12 text-center max-w-2xl">
-          I&apos;m actively seeking new job opportunities in web development and
+          I'm actively seeking new job opportunities in web development and
           would love to discuss how my skills can benefit your team.
         </p>
         <div className="w-full flex justify-center">
