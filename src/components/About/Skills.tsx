@@ -23,7 +23,7 @@ import openaiIcon from "@/assets/icons/skill/SimpleIconsOpenai.svg"; // Using th
 
 // Define the type for a skill
 interface Skill {
-  icon: any;
+  icon: string;
   name: string;
 }
 

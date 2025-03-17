@@ -3,7 +3,7 @@
 import Image from "next/image";
 import * as motion from "motion/react-client";
 import { useTransform, useScroll, MotionValue } from "motion/react";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import { Button } from "../ui/button";
 import { SquareArrowOutUpRight, Code, ChevronDown } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
