@@ -1,18 +1,16 @@
 import { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "standalone", // Optimized for container deployments
+  output: "export", // Use static export mode for a fully static deployment
   poweredByHeader: false,
   compress: true,
   reactStrictMode: true,
-  swcMinify: true,
+  // Removed swcMinify since it's not supported with static export
   images: {
-    domains: [
-      // Add domains you need to load images from
-    ],
+    // No external domains required as you're using images from your project folder.
     formats: ["image/avif", "image/webp"],
   },
-  // Add any additional configurations needed
+  // Add any additional configuration options as needed
 };
 
 export default nextConfig;
