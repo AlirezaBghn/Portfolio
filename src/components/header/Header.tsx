@@ -25,7 +25,7 @@ const Header: React.FC = () => {
             <Image
               src={logo}
               alt="Alireza Baghban"
-              className="h-full max-w-10 -translate-y-1"
+              className="h-full max-w-20 -translate-y-1"
             />
             Alireza Baghban
           </Link>
