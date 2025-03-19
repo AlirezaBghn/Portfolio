@@ -100,6 +100,7 @@ const HeroSection: React.FC = () => {
                 words={[
                   "Full Stack Developer",
                   "React Developer",
+                  "Next.js Developer",
                   "Web Developer",
                   "Frontend Developer",
                   "Backend Developer",
