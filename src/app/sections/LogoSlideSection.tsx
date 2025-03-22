@@ -7,23 +7,36 @@ import Section from "@/components/global/Section";
 import html from "@/assets/icons/skill/skill-icons--html.svg";
 import css from "@/assets/icons/skill/skill-icons--css.svg";
 import javascript from "@/assets/icons/skill/skill-icons--javascript.svg";
+import typescript from "@/assets/icons/icons8-typoskript-48.svg";
 import mongoose from "@/assets/icons/skill/devicon--mongoose-wordmark.svg";
 import expressjs from "@/assets/icons/skill/skill-icons--expressjs-light.svg";
 import mongodb from "@/assets/icons/skill/skill-icons--mongodb.svg";
 import nodejs from "@/assets/icons/skill/skill-icons--nodejs-light.svg";
 import react from "@/assets/icons/skill/skill-icons--react-light.svg";
 import tailwindcss from "@/assets/icons/skill/skill-icons--tailwindcss-dark.svg";
+// Import additional skills
+import nextjs from "@/assets/icons/skill/skill-icons--nextjs-light.svg";
+import vite from "@/assets/icons/skill/skill-icons--react-light.svg"; // Using React icon for Vite as in Skills.tsx
+import openai from "@/assets/icons/skill/SimpleIconsOpenai.svg";
+import sql from "@/assets/icons/skill/SimpleIconsSql.svg";
+import nosql from "@/assets/icons/skill/SimpleIconsNoSql.svg";
 
 const logos = [
   html,
   css,
   javascript,
+  typescript,
+  nextjs,
+  vite,
   mongoose,
   expressjs,
   mongodb,
   nodejs,
   react,
   tailwindcss,
+  openai,
+  sql,
+  nosql,
 ];
 
 const LogoSlideSection: React.FC = () => {
