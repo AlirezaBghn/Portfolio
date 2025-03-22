@@ -34,7 +34,7 @@ const Header: React.FC = () => {
           <NavMenu />
         </div>
         <div className="basis-1/6 flex items-center justify-end gap-2">
-          <Link href="/Alireza Baghban.pdf" target="_blank" download>
+          <Link href="/AlirezaBaghban.pdf" target="_blank" download>
             <Button className="font-bold">Resume</Button>
           </Link>
           <ModeToggle />
