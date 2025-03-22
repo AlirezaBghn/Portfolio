@@ -17,6 +17,7 @@ import expressIcon from "@/assets/icons/skill/skill-icons--expressjs-light.svg";
 import sqlIcon from "@/assets/icons/skill/SimpleIconsSql.svg";
 import nosqlIcon from "@/assets/icons/skill/SimpleIconsNoSql.svg";
 import nextjsIcon from "@/assets/icons/skill/skill-icons--nextjs-light.svg"; // Added Next.js icon import
+import typeScriptIcon from "@/assets/icons/icons8-typoskript-48.svg"; // Fixed TypeScript icon import path
 
 // Using correct icon paths for Vite and OpenAI
 import viteIcon from "@/assets/icons/skill/skill-icons--react-light.svg"; // Temporarily reusing React icon for Vite
@@ -37,9 +38,10 @@ const Skills: React.FC = () => {
   const categories: Categories = {
     frontend: [
       { icon: reactIcon, name: "React.js" },
-      { icon: nextjsIcon, name: "Next.js" }, // Added Next.js to frontend skills
+      { icon: nextjsIcon, name: "Next.js" },
       { icon: viteIcon, name: "Vite" },
       { icon: javascriptIcon, name: "JavaScript" },
+      { icon: typeScriptIcon, name: "TypeScript" }, // Added TypeScript to frontend skills
       { icon: htmlIcon, name: "HTML" },
       { icon: cssIcon, name: "CSS" },
       { icon: tailwindIcon, name: "Tailwind CSS" },
